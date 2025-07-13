@@ -1,0 +1,77 @@
+
+:root {
+    --fontMain : 'Cantarell', sans-serif;
+    --fontSub: 'Fjalla One', sans-serif;
+
+
+  }
+
+  .standard-padding {
+    padding: 100px 0;
+
+    @media (max-width: 1199px) {
+      padding: 70px 30px;
+    }
+
+    @media (max-width: 767px) {
+      padding: 50px 20px;
+    }
+
+  }
+
+
+    body {
+        font-family: var(--fontSub);
+    }
+    h1 {
+        font-family: var(--fontMain);
+    }
+
+    section.mainNav {
+      background: aqua;
+    }
+
+
+
+    nav {
+      width: 100%;
+      max-width: 1256px;
+      display: flex;
+      gap: 24px;
+      position: relative;
+      margin: 0 auto;
+      background: none;
+
+      img {
+        &#navLogo {
+          width: 100%;
+          max-width: 5em
+        }
+      }
+    }
+
+
+    section.indexHero {
+
+      .hero-contents {
+        width: 100%;
+        max-width: 1256px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+      }
+
+      h1 {
+        margin-bottom: 30px;
+      }
+
+      p {
+        width: 100%;
+        max-width: 670px;
+        margin-bottom: 30px;
+      }
+
+    }
